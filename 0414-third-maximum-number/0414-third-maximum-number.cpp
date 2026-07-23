@@ -3,7 +3,7 @@ public:
     int thirdMax(vector<int>& nums) {
         sort(nums.begin(),nums.end());
         reverse(nums.begin(),nums.end());
-        int max = 0;
+        
         int n = nums.size();
         if(n<3){
             return nums[0];
